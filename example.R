@@ -1,4 +1,4 @@
-# Load necessary libraries
+# Load necessary libraries...
 source("./classes/MessageHistory.R")
 source("./classes/ChatGPT.R")
 

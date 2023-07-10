@@ -1,7 +1,7 @@
 library(R6)
 library(rlist)
 
-# Define the MessageHistory class
+# Define the MessageHistory class.
 MessageHistory <- R6Class("MessageHistory",
                   private = list(
                     # Private list that will contain the history of messages

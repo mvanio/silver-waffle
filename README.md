@@ -1,4 +1,3 @@
-
 ## Working with the OpenAI ChatGPT API in R using R6 Classes
 
 Unlike many examples you may come across online, this blog post does not demonstrate how to interact with the OpenAI ChatGPT API using a basic R script. Instead, I'll demonstrate a more sophisticated and structured approach using R6 classes, highlighting how it can make your scripts cleaner, more organised, and more maintainable. 
@@ -40,11 +39,9 @@ In an interactive chat setting, each message you send to the API should include 
 Including the history allows the model to generate responses that are relevant and in context. Without the history, the model wouldn't have enough information to provide accurate or coherent responses to user prompts.
 
 The `MessageHistory` class in our example will handle this aspect. It maintains a list of messages (with the 'role' and 'message' attributes) in the conversation, thus helping the `ChatGPT` class manage the conversation context when making API requests.
-
 :::
 
 ## Introducing the MessageHistory Class
-
 
 Let's begin our exploration of the OpenAI ChatGPT API using R6 classes in R with a detailed look at the first class we're creating: `MessageHistory`. This class plays a pivotal role in maintaining the continuity of a conversation -context- when interacting with the API.
 

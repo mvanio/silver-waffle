@@ -3,7 +3,7 @@ library(httr)
 library(jsonlite)
 source("./classes/MessageHistory.R")
 
-# Define the ChatGPT class
+# Define the ChatGPT class.
 ChatGPT <- R6Class("ChatGPT",
                    private = list(
                      # Private string that will store the API token
